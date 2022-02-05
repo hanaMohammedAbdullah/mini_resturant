@@ -2,8 +2,8 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="w-3/5 mx-auto  mt-8">
-      <div className="flex flex-wrap  justify-around   ">
+    <div className="  bg-gray-200   ">
+      <div className="flex flex-wrap  justify-around   w-3/5 mx-auto ">
         {/* card */}
         <div className="  w-48 h border-2 border-black rounded  text-center my-20 ">
           <img
