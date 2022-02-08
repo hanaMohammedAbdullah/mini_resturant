@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Footer from "./Component/Footer";
 import Header from "./Component/Header";
 import Home from "./Screens/Home";
+import Order from "./Screens/Order";
 
 function App() {
   return (
@@ -11,9 +11,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/order" element={<Home />} />
+        <Route path="/order" element={<Order />} />
       </Routes>
-      <Footer />
     </>
   );
 }
